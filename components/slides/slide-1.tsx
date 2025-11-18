@@ -30,6 +30,21 @@ export default function Slide1() {
           <div className="w-2 h-2 rounded-full bg-cyan-500" />
         </div>
       </div>
+
+      {/* Réalisé par section */}
+      <div className="absolute bottom-8 left-0 right-0 z-10">
+        <div className="text-center">
+          <p className="text-slate-400 text-sm font-semibold mb-3">Réalisé par :</p>
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-slate-300 text-sm">
+            <span>Nada Mawloud</span>
+            <span>Elmehdi Rahaoui</span>
+            <span>Mehdi Ouakrim</span>
+            <span>Mohamed Achraf Sbiyaa</span>
+            <span>Mouad Sebbar Alaoui</span>
+            <span>Oussama Talibi</span>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
